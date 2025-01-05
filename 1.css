@@ -1,0 +1,211 @@
+ /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-image: url("img/Desain\ buat\ codingan.png");
+     }
+  
+  .container img {
+    width: 50px; /* Sesuaikan ukuran gambar jika diperlukan */
+    height: auto;
+  }
+  
+    .content {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+
+    .pp {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        color: #555;
+
+
+}
+
+
+/* Header */
+header {
+    background: #3509e4;
+    color: #128fc5;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav {
+    background: #379683;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about {
+    background-color: rgba(0, 0, 0, 0.408);
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about img {
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    width: px;
+    text-align: center;
+    margin-left: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.project-card {
+
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.iniaku{
+    flex-direction: row;
+    display: flex;
+    margin: 0 0 0 20vh;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 49vh;
+    background-color: rgba(239, 236, 233, 0.333);
+    padding: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.about img {
+    border-radius: 5px;
+    margin: 20px 0 0 0 ;
+    
+}
+
+.k {
+    text-align: center;
+    width: 100%;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: rgb(23, 2, 3);
+    color: rgb(239, 227, 227);
+}
+
+.about p {
+    color: white;
+}
+
+.kontak {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.kontak .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kontak .content .card {
+    width: 100px;
+    margin: 15px;
+}
+
+.kontak .content .img-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.kontak .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.kontak .content .img-card img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: blue;
+    color: rgb(233, 10, 10);
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 10;
+}
